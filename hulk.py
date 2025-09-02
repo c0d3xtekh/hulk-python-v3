@@ -1,12 +1,15 @@
 # ----------------------------------------------------------------------------------------------
 # HULK - HTTP Unbearable Load King (Python 3 version)
 #
-# This tool is a DoS tool that is meant to put heavy load on HTTP servers in order to exhaust
-# the resource pool. It is meant for research and stress-testing purposes only.
-# Any malicious usage of this tool is prohibited.
+# This tool is a DoS/Stress testing utility designed to put heavy load on HTTP servers
+# for the purpose of research and resilience testing only.
 #
-# Original author: Barry Shteiman , version 1.0
-# Python3 update: adapted from legacy code
+# ⚠️ Disclaimer:
+#    This script is intended strictly for controlled environments with explicit permission.
+#    Any unauthorized or malicious usage is strictly prohibited.
+#
+# Original author: Barry Shteiman (HULK v1.0)
+# Python3 adaptation & enhancements: C0D3X TECH
 # ----------------------------------------------------------------------------------------------
 
 import sys
@@ -156,3 +159,4 @@ else:
             t.start()
         t = MonitorThread()
         t.start()
+
