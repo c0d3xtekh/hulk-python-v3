@@ -138,13 +138,11 @@ else:
         usage()
         sys.exit()
     else:
-		print("""
----------------------------------------------------
- C0D3X TECH - HTTP Stress Test Utility
- Based on HULK (Python3 adaptation)
- For research & resilience testing only
----------------------------------------------------
-""")
+		print("""---------------------------------------------------
+ 				C0D3X TECH - HTTP Stress Test Utility
+ 				Based on HULK (Python3 adaptation)
+ 				For research & resilience testing only
+				---------------------------------------------------""")
         print("-- HULK Attack Started --")
         if len(sys.argv) == 3 and sys.argv[2] == "safe":
             set_safe()
@@ -158,3 +156,4 @@ else:
             t.start()
         t = MonitorThread()
         t.start()
+
